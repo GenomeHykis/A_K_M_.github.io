@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register | Code Quest 2025</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/converted_logo.webp" alt="CodeQuest Logo" class="logo-img" />
+            </a>
+        </div>
+
+
+        <div class="hamburger" id="hamburger">
+            <i class="fa fa-bars"></i>
+        </div>
+
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="venue.html">Venue</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="rules.html">Rules & Eligibility</a></li>
+            <li><a href="register.html" class="active">Register</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Registration Section -->
+    <main>
+        <div class="card form-card">
+            <h1>Register for Code Quest 2025</h1>
+            <form id="registerForm" class="form-content">
+                <input type="text" id="name" placeholder="Name" required />
+                <input type="tel" id="contact" placeholder="Contact" required />
+                <input type="text" id="address" placeholder="Address" required />
+
+                <div class="form-actions">
+                    <button type="submit" id="submitBtn">SUBMIT</button>
+                    <span id="tickMark" class="tick hidden">✔</span>
+                </div>
+            </form>
+        </div>
+    </main>
+
+</body>
+
+</html>
